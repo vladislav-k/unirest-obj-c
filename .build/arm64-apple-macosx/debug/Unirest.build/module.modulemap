@@ -1,0 +1,4 @@
+module Unirest {
+    umbrella header "/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include/Unirest/Unirest.h"
+    export *
+}

@@ -1,0 +1,139 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "Unirest-arm64-apple-macosx-debug.module": ["<Unirest-arm64-apple-macosx-debug.module>"]
+  "main": ["<Unirest-arm64-apple-macosx-debug.module>"]
+  "test": ["<Unirest-arm64-apple-macosx-debug.module>"]
+default: "main"
+nodes:
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/Base64.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/Base64.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/Base64.m.o"]
+    description: "Compiling Unirest Base64.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/Base64.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/Base64.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/Base64.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/Base64.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBaseRequest.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpRequest/UNIBaseRequest.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBaseRequest.m.o"]
+    description: "Compiling Unirest HttpRequest/UNIBaseRequest.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBaseRequest.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpRequest/UNIBaseRequest.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBaseRequest.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBaseRequest.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBodyRequest.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpRequest/UNIBodyRequest.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBodyRequest.m.o"]
+    description: "Compiling Unirest HttpRequest/UNIBodyRequest.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBodyRequest.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpRequest/UNIBodyRequest.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBodyRequest.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBodyRequest.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNISimpleRequest.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpRequest/UNISimpleRequest.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNISimpleRequest.m.o"]
+    description: "Compiling Unirest HttpRequest/UNISimpleRequest.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNISimpleRequest.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpRequest/UNISimpleRequest.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNISimpleRequest.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNISimpleRequest.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPBinaryResponse.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIHTTPBinaryResponse.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPBinaryResponse.m.o"]
+    description: "Compiling Unirest HttpResponse/UNIHTTPBinaryResponse.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPBinaryResponse.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIHTTPBinaryResponse.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPBinaryResponse.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPBinaryResponse.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPJsonResponse.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIHTTPJsonResponse.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPJsonResponse.m.o"]
+    description: "Compiling Unirest HttpResponse/UNIHTTPJsonResponse.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPJsonResponse.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIHTTPJsonResponse.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPJsonResponse.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPJsonResponse.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPResponse.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIHTTPResponse.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPResponse.m.o"]
+    description: "Compiling Unirest HttpResponse/UNIHTTPResponse.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPResponse.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIHTTPResponse.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPResponse.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPResponse.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPStringResponse.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIHTTPStringResponse.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPStringResponse.m.o"]
+    description: "Compiling Unirest HttpResponse/UNIHTTPStringResponse.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPStringResponse.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIHTTPStringResponse.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPStringResponse.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPStringResponse.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIJsonNode.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIJsonNode.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIJsonNode.m.o"]
+    description: "Compiling Unirest HttpResponse/UNIJsonNode.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIJsonNode.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/HttpResponse/UNIJsonNode.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIJsonNode.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIJsonNode.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPClientHelper.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIHTTPClientHelper.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPClientHelper.m.o"]
+    description: "Compiling Unirest UNIHTTPClientHelper.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPClientHelper.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIHTTPClientHelper.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPClientHelper.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPClientHelper.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequest.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIHTTPRequest.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequest.m.o"]
+    description: "Compiling Unirest UNIHTTPRequest.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequest.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIHTTPRequest.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequest.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequest.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequestWithBody.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIHTTPRequestWithBody.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequestWithBody.m.o"]
+    description: "Compiling Unirest UNIHTTPRequestWithBody.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequestWithBody.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIHTTPRequestWithBody.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequestWithBody.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequestWithBody.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIRest.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIRest.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIRest.m.o"]
+    description: "Compiling Unirest UNIRest.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIRest.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIRest.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIRest.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIRest.m.d"
+
+  "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIUrlConnection.m.o":
+    tool: clang
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIUrlConnection.m"]
+    outputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIUrlConnection.m.o"]
+    description: "Compiling Unirest UNIUrlConnection.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Unirest","-fmodules-cache-path=/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/include","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIUrlConnection.m.d","-c","/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/UNIUrlConnection.m","-o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIUrlConnection.m.o"]
+    deps: "/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIUrlConnection.m.d"
+
+  "<Unirest-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/Base64.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBaseRequest.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNIBodyRequest.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpRequest/UNISimpleRequest.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPBinaryResponse.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPJsonResponse.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPResponse.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIHTTPStringResponse.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/HttpResponse/UNIJsonNode.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPClientHelper.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequest.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIHTTPRequestWithBody.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIRest.m.o","/Users/vladislav/Documents/GitHub/unirest-obj-c/.build/arm64-apple-macosx/debug/Unirest.build/UNIUrlConnection.m.o"]
+    outputs: ["<Unirest-arm64-apple-macosx-debug.module>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/vladislav/Documents/GitHub/unirest-obj-c/Unirest/","/Users/vladislav/Documents/GitHub/unirest-obj-c/Package.swift","/Users/vladislav/Documents/GitHub/unirest-obj-c/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
