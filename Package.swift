@@ -25,7 +25,9 @@ let package = Package(
             ],
             publicHeadersPath: ".",
             cSettings: [
-                .headerSearchPath(".")
+                .headerSearchPath("."),
+                .headerSearchPath("HttpRequest"),
+                .headerSearchPath("HttpResponse")
             ]
         )
     ]
